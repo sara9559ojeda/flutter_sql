@@ -1,16 +1,17 @@
-# flutter_sql
+# Flutter SQL & Hive 
 
-A new Flutter project.
+Aplicación en **Flutter** para gestionar **recordatorios** usando **Hive** y **historial médico** usando **SQLite**.  
 
-## Getting Started
+## Características
 
-This project is a starting point for a Flutter application.
+- **Hive (NoSQL)**:  
+  - Guardar recordatorios locales.  
+  - Marcar recordatorios como completados.  
+  - Eliminar recordatorios.  
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **SQLite (SQL)**:  
+  - Guardar registros médicos (diagnóstico, fecha, resultados).  
+  - Agregar, eliminar y refrescar registros.  
+## Instalar dependencias
+ flutter pub get
+  
